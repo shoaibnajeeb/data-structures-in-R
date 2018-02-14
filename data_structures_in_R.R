@@ -1,10 +1,11 @@
 author <- list(name="Shoaib Najeeb Arayilakath", email="shoaibnajeeb@gmail.com")
 
 ### VECTORS
-#The fundamental datatype, Homogeneous mode, Different types of vectors
-#There are no scalars
-
 #In R, a vector is a 1-dimensional group of ordered elements
+#The fundamental datastructure, Homogeneous mode, Different types of vectors
+#There are no scalars/constants
+
+#Example of a numeric vector with 3 elements
 v1 <- c(1,2,3) 
 v1 #[1] 1 2 3
 
@@ -111,7 +112,7 @@ quantile(v10,.05) # return sample quantiles
 
 
 ### MATRICES AND ARRAYS
-#A matrix is a vector with two additional attributes: the number of rows and the number of columns.
+#In R, a matrix is a vector with two additional attributes: the number of rows and the number of columns.
 #Homogenous mode
 #Matrices are special cases of a more general R type of object:arrays. Arrays can be multidimensional.
 
