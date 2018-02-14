@@ -111,7 +111,7 @@ summary(v10) # 5 number summary plus mean
 quantile(v10,.05) # return sample quantiles
 
 
-### MATRICES AND ARRAYS
+### MATRICES
 #In R, a matrix is a vector with two additional attributes: the number of rows and the number of columns.
 #Homogenous mode
 #Matrices are special cases of a more general R type of object:arrays. Arrays can be multidimensional.
